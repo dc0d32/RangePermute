@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RangePermute")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Memory efficient psuedo-randomly permuted enumerator for C#/.NET to enumerate gigantic ranges.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RangePermute")]
