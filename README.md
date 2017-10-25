@@ -7,6 +7,18 @@ This library can generate such enumerations using constant memory, and is suitab
 
 With UInt64, currently we can support 2^64. Can easily be modified to support range up-to 2^128. Internals are 128-bit already.
 
+```csharp
+using RangePermute;
+...
+foreach(var idx in RangeEnumerable.Range(100000000))
+{
+    // do something with idx
+    // idx will be between 0 (inclusive) and 100000000 (exlusive)
+    ...
+}
+
+```
+
 # Relevant reading: 
 - Luby, Michael, and Charles Rackoff. "How to Construct Pseudorandom Permutations from Pseudorandom Functions." SIAM Journal on Computing, vol. 17, no. 2, 1988, pp. 373–386.
 - Black, John, and Phillip Rogaway. "Ciphers with Arbitrary Finite Domains." The Cryptographers Track at the Rsa Conference, 2002. [http://web.cs.ucdavis.edu/~rogaway/papers/subset.pdf]
