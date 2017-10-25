@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RangePermute</id>
+    <version>1.0.0</version>
+    <title>RangePermute</title>
+    <authors>Prashant Borole</authors>
+    <owners>Prashant Borole</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/dc0d32/RangePermute</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Memory efficient psuedo-randomly permuted enumerator for C#/.NET to enumerate gigantic ranges.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Permutations Random-Number-Generators Range Enumerable</tags>
+  </metadata>
+</package>
