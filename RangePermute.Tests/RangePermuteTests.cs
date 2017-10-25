@@ -27,11 +27,14 @@ namespace RangePermute.Tests
         {
             var testRange = 100000;
             var seen = new BitArray(testRange);
+            var count = 0;
             foreach (var idx in RangeEnumerable.Range((ulong)testRange))
             {
                 Assert.IsFalse(seen[(int)idx]);
                 seen[(int)idx] = true;
+                count++;
             }
+            Assert.AreEqual(count, testRange);
         }
 
     }
